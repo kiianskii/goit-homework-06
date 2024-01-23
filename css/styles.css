@@ -313,7 +313,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   padding-bottom: 72px;
-  width: 288px;
+  width: 215px;
   margin: 0 auto;
 }
 @media only screen and (min-width: 768px) {
@@ -927,7 +927,7 @@ img {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
   background-color: var(--DAIRY, #fcfcfc);
-  padding: 72px 24px 24px 24px;
+  padding: 72px 16px 24px 16px;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -935,6 +935,7 @@ img {
 @media screen and (min-width: 768px) {
   .backdrop {
     width: 408px;
+    padding: 72px 24px 24px 24px;
   }
 }
 
@@ -1074,11 +1075,6 @@ img {
 
 .form-check-wrapper {
   margin-bottom: 24px;
-  display: flex;
-
-  width: 231px;
-  align-items: center;
-  gap: 8px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1092,10 +1088,11 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
 }
 
 .form-link-text {
-  margin-left: 4px;
   color: var(--IRIS, #4d5ae5);
   text-decoration: underline;
 }
@@ -1139,6 +1136,8 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  flex-shrink: 0;
+  margin-right: 8px;
 }
 
 .form-check-input:checked + .form-check-label .form-check-box {
@@ -1202,7 +1201,7 @@ img {
   text-transform: capitalize;
   color: var(--NAVY-BLUE, #2e2f42);
 }
-.mobile-navigation-links .studio {
+.studio {
   color: var(--OCEAN, #404bbf);
 }
 

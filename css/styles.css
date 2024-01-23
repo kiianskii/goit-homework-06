@@ -731,6 +731,7 @@ img {
 @media only screen and (min-width: 1158px) {
   .footer-container {
     gap: 0;
+    flex-wrap: nowrap;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -782,7 +783,7 @@ img {
 @media only screen and (min-width: 1158px) {
   .section-footer-cont {
     margin-right: 120px;
-    margin-left: 120px;
+    margin-left: 0;
   }
 }
 .section-footer-item {
